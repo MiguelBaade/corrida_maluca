@@ -27,7 +27,7 @@ body{
 }
 
 .carro{
-    position: absolute;
+    position: relative;
     left: 0;
     top: 25px;
     width: 65px;
@@ -54,5 +54,23 @@ button{
 
 button:hover{
     background: #00bcd4;
+    transform: scale(1.05);
+}
+
+.turbo1{
+    background: red;
+}
+
+.turbo2{
+    background: red;
+}
+
+button.turbo1:hover{
+    background: rgb(145, 0, 0);
+    transform: scale(1.05);
+}
+
+button.turbo2:hover{
+    background: rgb(145, 0, 0);
     transform: scale(1.05);
 }
