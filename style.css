@@ -57,20 +57,29 @@ button:hover{
     transform: scale(1.05);
 }
 
-.turbo1{
+#turbo1{
     background: red;
 }
 
-.turbo2{
+#turbo2{
     background: red;
 }
 
-button.turbo1:hover{
+button#turbo1:hover{
     background: rgb(145, 0, 0);
     transform: scale(1.05);
 }
 
-button.turbo2:hover{
+button#turbo2:hover{
     background: rgb(145, 0, 0);
+    transform: scale(1.05);
+}
+
+#reiniciar{
+    background: #ffe600;
+}
+
+button#reiniciar:hover{
+    background: #af9e00;
     transform: scale(1.05);
 }
